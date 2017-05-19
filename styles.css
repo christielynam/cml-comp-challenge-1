@@ -37,8 +37,7 @@ h1 {
 
 .header-content {
   margin: 0;
-  /*padding: 10px 0;*/
-  font-size: 25px;
+=  font-size: 25px;
   line-height: 150%;
 }
 
@@ -313,5 +312,35 @@ a {
     font-size: 22px;
     background-position: 20px;
     background-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  h1 {
+    padding: 25px 0;
+    margin: 10px 0;
+    font-size: 50px;
+  }
+  .header-content {
+    padding: 25px 0;
+    font-size: 25px;
+  }
+  .top-btn-container {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .direction {
+    margin-right: 0;
+  }
+  .box {
+    width: 100%;
   }
 }
