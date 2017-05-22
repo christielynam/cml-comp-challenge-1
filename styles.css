@@ -337,11 +337,13 @@ a {
   }
   .direction {
     margin-right: 0;
-    font-size: 20px;
+    background-size: 15px;
+    font-size: 15px;
   }
   .contact {
     margin-top: 20px;
-    font-size: 20px;
+    background-size: 15px;
+    font-size: 15px;
   }
   .box {
     width: 100%;
